@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_quick_root"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal" android:padding="6dp" android:gravity="center"
+    android:background="@drawable/widget_bg">
+    <TextView android:id="@+id/btn_add" android:layout_width="0dp" android:layout_height="match_parent"
+        android:layout_weight="1" android:layout_margin="4dp" android:gravity="center"
+        android:text="＋&#10;Продукт" android:textSize="12sp" android:textColor="#4A3F6B" android:background="@drawable/widget_btn"/>
+    <TextView android:id="@+id/btn_shop" android:layout_width="0dp" android:layout_height="match_parent"
+        android:layout_weight="1" android:layout_margin="4dp" android:gravity="center"
+        android:text="🛒&#10;Покупки" android:textSize="12sp" android:textColor="#4A3F6B" android:background="@drawable/widget_btn"/>
+    <TextView android:id="@+id/btn_menu" android:layout_width="0dp" android:layout_height="match_parent"
+        android:layout_weight="1" android:layout_margin="4dp" android:gravity="center"
+        android:text="🍽&#10;Меню" android:textSize="12sp" android:textColor="#4A3F6B" android:background="@drawable/widget_btn"/>
+    <TextView android:id="@+id/btn_dish" android:layout_width="0dp" android:layout_height="match_parent"
+        android:layout_weight="1" android:layout_margin="4dp" android:gravity="center"
+        android:text="📖&#10;Страва" android:textSize="12sp" android:textColor="#4A3F6B" android:background="@drawable/widget_btn"/>
+</LinearLayout>

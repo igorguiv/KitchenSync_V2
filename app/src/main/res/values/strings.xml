@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Мій холодильник</string>
+    <string name="widget_shop_desc">Список покупок</string>
+    <string name="widget_quick_desc">Швидкі дії: продукт, покупки, меню</string>
+</resources>
